@@ -6,21 +6,4 @@
 .menu {
   color: blue;
 }
-.mainTitleContainer {
-  text-align: center;
-}
-.logoImage {
-  width: 90%;
-  padding: 1em;
-}
 
-.sloganText {
-  font-family: cursive;
-  color: #2058df;
-  padding-top: 1em;
-}
-.underneathSlogan {
-  font-family: serif;
-  color: grey;
-  padding-bottom: 1em;
-}

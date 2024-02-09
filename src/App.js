@@ -1,5 +1,6 @@
 import "./App.css";
 import MenuItem from "./components/MenuItem";
+import MenuHeader from "./components/MenuHeader";
 
 // import 'bootstrap/dist/css/bootstrap.min.css'; // This imports bootstrap css styles. You can use bootstrap or your own classes by using the className attribute in your elements.
 
@@ -81,10 +82,8 @@ const menuItems = [
 function App() {
   return (
     <div>
-      <div className="mainTitleContainer">
-        <img src="./images/logo.png" alt="logoImage" className="logoImage" />
-        <TitleText />
-      </div>
+      <MenuHeader />
+
       <div>
         <ul className="list-group">
           {/* Display menu items dynamicaly here by iterating over the provided menuItems */}
@@ -102,14 +101,5 @@ function App() {
     </div>
   );
 }
-
-const TitleText = () => {
-  return (
-    <>
-      <h3 className="sloganText">Flavorful Moments, Always Fresh!</h3>
-      <h3 className="underneathSlogan">Take your pick!</h3>
-    </>
-  );
-};
 
 export default App;
