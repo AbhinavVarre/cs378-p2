@@ -82,7 +82,7 @@ function App() {
   return (
     <div>
       <div className="mainTitleContainer">
-        <img src="images/logo.png" alt="logoImage" className="logoImage" />
+        <img src="./images/logo.png" alt="logoImage" className="logoImage" />
         <TitleText />
       </div>
       <div>

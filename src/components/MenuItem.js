@@ -11,11 +11,10 @@ const MenuItem = ({ title, description, imageName, price }) => {
       <li className="list-group-item">
         <div className="itemRow">
           <div className="menuImageContainer">
-            <img
-              src={`../../../images/${imageName}`}
-              alt="placeholder"
-              className="menuImage"
-            />
+            <img src="images/{imageName}.png"
+            alt={imageName}
+            className="menuImage"
+            ></img>
           </div>
           <div className="menuTextContainer">
             <div>
